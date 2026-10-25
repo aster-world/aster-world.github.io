@@ -56,6 +56,16 @@ function tabs(bar, panel, items, render, start = 0, closable = false) {
 }
 const figure = (box, rec) => {const i = img(rec); i.onclick = () => lightbox(rec); box.appendChild(i);};
 
+/* ---------------------------------------------------------------- author links */
+// project.js renders the hero authors from publications.json as plain names; link each to its homepage.
+const AUTHOR_LINKS = {'Haoyang Li': 'https://haoyangli16.github.io/', 'Yu-Wei Chao': 'https://scholar.google.com/citations?user=48Y9F-YAAAAJ', 'Zhaoshuo Li': 'https://mli0603.github.io/', 'Jinwei Gu': 'https://www.gujinwei.org/', 'Tsung-Yi Lin': 'https://tsungyilin.info/', 'Ming-Yu Liu': 'https://mingyuliu.net/', 'Shuran Song': 'https://shurans.github.io/', 'Kaichun Mo': 'https://kaichun-mo.github.io/'};
+const linkAuthors = box => box.querySelectorAll('span').forEach(s => {
+  const name = s.textContent.trim(), url = AUTHOR_LINKS[name];
+  if (url && !s.querySelector('a')) {const l = document.createElement('a'); l.href = url; l.target = '_blank'; l.rel = 'noopener'; l.textContent = name; s.replaceChildren(l);}
+});
+const authorsBox = document.querySelector('.project-authors');
+if (authorsBox) {linkAuthors(authorsBox); new MutationObserver(() => linkAuthors(authorsBox)).observe(authorsBox, {childList: true});}
+
 /* ---------------------------------------------------------------- hero + method */
 for (const r of S.hero) $('#hero-grid').appendChild(vid(r));
 figure($('#fig-pipeline'), S.figures.pipeline);
