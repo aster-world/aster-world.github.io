@@ -1,0 +1,37 @@
+{
+ "aster": {
+  "year": 2026,
+  "title": "ASTER: Interaction Pretraining for Video World Simulator",
+  "authors": [
+   "Haoyang Li†",
+   "Yu-Wei Chao",
+   "Zhaoshuo Li",
+   "Jinwei Gu",
+   "Tsung-Yi Lin",
+   "Ming-Yu Liu",
+   "Shuran Song",
+   "Kaichun Mo"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/aster.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "aster/"
+   },
+   {
+    "label": "Paper",
+    "url": "#"
+   },
+   {
+    "label": "arXiv",
+    "url": "#"
+   },
+   {
+    "label": "Code",
+    "url": "#"
+   }
+  ]
+ }
+}

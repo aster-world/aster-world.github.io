@@ -1,0 +1,1987 @@
+{
+ "cosmos3": {
+  "year": 2026,
+  "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos3.mp4",
+  "teaser-fit": "contain",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVIDIA/cosmos"
+   },
+   {
+    "label": "Models",
+    "url": "https://huggingface.co/collections/nvidia/cosmos3"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "aster": {
+  "year": 2026,
+  "title": "ASTER: Interaction Pretraining for Video World Simulator",
+  "authors": [
+   "Haoyang Li†",
+   "Yu-Wei Chao",
+   "Zhaoshuo Li",
+   "Jinwei Gu",
+   "Tsung-Yi Lin",
+   "Ming-Yu Liu",
+   "Shuran Song",
+   "Kaichun Mo"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/aster.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "aster/"
+   },
+   {
+    "label": "Paper",
+    "url": "#"
+   },
+   {
+    "label": "arXiv",
+    "url": "#"
+   },
+   {
+    "label": "Code",
+    "url": "#"
+   }
+  ]
+ },
+ "flatsounds": {
+  "year": 2026,
+  "title": "Benchmarking Single-Factor Physical Video-to-Audio Generation",
+  "authors": [
+   "Tingle Li",
+   "Siddharth Gururani",
+   "Kevin Shih",
+   "Gantavya Bhatt",
+   "Sang-gil Lee",
+   "Zhifeng Kong",
+   "Arushi Goel",
+   "Gopala Anumanchipalli",
+   "Ming-Yu Liu"
+  ],
+  "venue": "CVPR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/flatsounds.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "flatsounds/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://openaccess.thecvf.com//content/CVPR2026/papers/Li_Benchmarking_Single-Factor_Physical_Video-to-Audio_Generation_CVPR_2026_paper.pdf"
+   }
+  ]
+ },
+ "sage": {
+  "year": 2026,
+  "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+  "authors": [
+   "Hongchi Xia",
+   "Xuan Li",
+   "Zhaoshuo Li",
+   "Qianli Ma",
+   "Jiashu Xu",
+   "Ming-Yu Liu",
+   "Yin Cui",
+   "Tsung-Yi Lin",
+   "Wei-Chiu Ma",
+   "Shenlong Wang",
+   "Shuran Song",
+   "Fangyin Wei"
+  ],
+  "venue": "CVPR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/sage.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "sage/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/pdf/2602.10116"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/sage"
+   },
+   {
+    "label": "Dataset",
+    "url": "https://huggingface.co/datasets/nvidia/SAGE-10k"
+   }
+  ]
+ },
+ "duogen": {
+  "year": 2026,
+  "title": "DuoGen: Towards General Purpose Interleaved Multimodal Generation",
+  "authors": [
+   "Min Shi",
+   "Xiaohui Zeng",
+   "Jiannan Huang",
+   "Yin Cui",
+   "Francesco Ferroni",
+   "Jialuo Li",
+   "Shubham Pachori",
+   "Zhaoshuo Li",
+   "Yogesh Balaji",
+   "Haoxiang Wang",
+   "Tsung-Yi Lin",
+   "Xiao Fu",
+   "Yue Zhao",
+   "Chieh-Yun Chen",
+   "Ming-Yu Liu",
+   "Humphrey Shi"
+  ],
+  "venue": "CVPR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/duogen.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "duogen/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2602.00508"
+   }
+  ]
+ },
+ "plenopticdreamer": {
+  "year": 2026,
+  "title": "Plenoptic Video Generation",
+  "authors": [
+   "Xiao Fu",
+   "Shitao Tang",
+   "Min Shi",
+   "Xian Liu",
+   "Jinwei Gu",
+   "Ming-Yu Liu",
+   "Dahua Lin",
+   "Chen-Hsuan Lin"
+  ],
+  "venue": "CVPR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/plenopticdreamer.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "plenopticdreamer/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2601.05239"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-transfer2.5/blob/main/docs/inference_plenoptic.md"
+   }
+  ]
+ },
+ "cosmos-policy": {
+  "year": 2026,
+  "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+  "authors": [
+   "Moo Jin Kim",
+   "Yihuai Gao",
+   "Tsung-Yi Lin",
+   "Yen-Chen Lin",
+   "Yunhao Ge",
+   "Grace Lam",
+   "Percy Liang",
+   "Shuran Song",
+   "Ming-Yu Liu",
+   "Chelsea Finn",
+   "Jinwei Gu"
+  ],
+  "venue": "ICLR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-policy.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-policy/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2601.16163"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvlabs/cosmos-policy"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/collections/nvidia/cosmos-policy"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/V2qdFD9n5BM"
+   }
+  ]
+ },
+ "infotok": {
+  "year": 2026,
+  "title": "InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression",
+  "authors": [
+   "Haotian Ye",
+   "Qiyuan He",
+   "Jiaqi Han",
+   "Puheng Li",
+   "Jiaojiao Fan",
+   "Zekun Hao",
+   "Fitsum Reda",
+   "Yogesh Balaji",
+   "Huayu Chen",
+   "Sheng Liu",
+   "Angela Yao",
+   "James Zou",
+   "Stefano Ermon",
+   "Haoxiang Wang",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ICLR 2026",
+  "award": "Oral",
+  "teaser-file": "assets/pub-teaser/infotok.png",
+  "links": [
+   {
+    "label": "Project",
+    "url": "infotok/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2512.16975"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/YWolfeee/InfoTok"
+   }
+  ]
+ },
+ "rcm": {
+  "year": 2026,
+  "title": "Large Scale Diffusion Distillation via Score-Regularized Continuous-Time Consistency",
+  "authors": [
+   "Kaiwen Zheng",
+   "Yuji Wang",
+   "Qianli Ma",
+   "Huayu Chen",
+   "Jintao Zhang",
+   "Yogesh Balaji",
+   "Jianfei Chen",
+   "Ming-Yu Liu",
+   "Jun Zhu",
+   "Qinsheng Zhang"
+  ],
+  "venue": "ICLR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/rcm.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "rcm/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2510.08431"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/rcm"
+   }
+  ]
+ },
+ "diffusionnft": {
+  "year": 2026,
+  "title": "Diffusion Negative-aware Fine-Tuning: Online Diffusion Reinforcement with Forward Process",
+  "authors": [
+   "Kaiwen Zheng",
+   "Huayu Chen",
+   "Haotian Ye",
+   "Haoxiang Wang",
+   "Qinsheng Zhang",
+   "Kai Jiang",
+   "Hang Su",
+   "Stefano Ermon",
+   "Jun Zhu",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ICLR 2026",
+  "award": "Oral",
+  "teaser-file": "assets/pub-teaser/diffusionnft.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "diffusionnft/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/pdf/2509.16117"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/DiffusionNFT"
+   }
+  ]
+ },
+ "phyworldbench": {
+  "year": 2026,
+  "title": "PhyWorldBench: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models",
+  "authors": [
+   "Jing Gu",
+   "Xian Liu",
+   "Yu Zeng",
+   "Ashwin Nagarajan",
+   "Fangrui Zhu",
+   "Daniel Hong",
+   "Yue Fan",
+   "Qianqi Yan",
+   "Kaiwen Zhou",
+   "Ming-Yu Liu",
+   "Xin Eric Wang"
+  ],
+  "venue": "ICLR 2026",
+  "award": "Oral",
+  "teaser-file": "assets/pub-teaser/phyworldbench.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "phyworldbench/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2507.13428"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/g-jing/phy-world-bench?tab=readme-ov-file"
+   }
+  ]
+ },
+ "negative-aware-ft": {
+  "year": 2026,
+  "title": "Negative-aware Fine-Tuning: Bridging Supervised Learning and Reinforcement Learning in Math Reasoning",
+  "authors": [
+   "Huayu Chen",
+   "Kaiwen Zheng",
+   "Qinsheng Zhang",
+   "Ganqu Cui",
+   "Yin Cui",
+   "Haotian Ye",
+   "Tsung-Yi Lin",
+   "Ming-Yu Liu",
+   "Jun Zhu",
+   "Haoxiang Wang"
+  ],
+  "venue": "ICLR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/diffusionnft.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "negative-aware-ft/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/pdf/2505.18116"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/NFT"
+   }
+  ]
+ },
+ "scenethesis": {
+  "year": 2026,
+  "title": "Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation",
+  "authors": [
+   "Lu Ling",
+   "Chen-Hsuan Lin",
+   "Tsung-Yi Lin",
+   "Yifan Ding",
+   "Yu Zeng",
+   "Yichen Sheng",
+   "Yunhao Ge",
+   "Ming-Yu Liu",
+   "Aniket Bera",
+   "Zhaoshuo Li"
+  ],
+  "venue": "ICLR 2026",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/scenethesis.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "scenethesis/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/pdf/2505.02836"
+   }
+  ]
+ },
+ "partpacker": {
+  "year": 2025,
+  "title": "PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing",
+  "authors": [
+   "Jiaxiang Tang",
+   "Ruijie Lu",
+   "Zhaoshuo Li",
+   "Zekun Hao",
+   "Xuan Li",
+   "Fangyin Wei",
+   "Shuran Song",
+   "Gang Zeng",
+   "Ming-Yu Liu",
+   "Tsung-Yi Lin"
+  ],
+  "venue": "NeurIPS 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/partpacker.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "partpacker/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2506.09980"
+   }
+  ]
+ },
+ "describe-anything": {
+  "year": 2025,
+  "title": "Describe Anything: Detailed Localized Image and Video Captioning",
+  "authors": [
+   "Long Lian",
+   "Yifan Ding",
+   "Yunhao Ge",
+   "Sifei Liu",
+   "Hanzi Mao",
+   "Boyi Li",
+   "Marco Pavone",
+   "Ming-Yu Liu",
+   "Trevor Darrell",
+   "Adam Yala",
+   "Yin Cui"
+  ],
+  "venue": "ICCV 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/describe-anything.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "describe-anything/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2504.16072"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/describe-anything"
+   },
+   {
+    "label": "Demo",
+    "url": "https://huggingface.co/spaces/nvidia/describe-anything-model-demo"
+   }
+  ]
+ },
+ "ddo": {
+  "year": 2025,
+  "title": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
+  "authors": [
+   "Kaiwen Zheng",
+   "Yongxin Chen",
+   "Huayu Chen",
+   "Guande He",
+   "Ming-Yu Liu",
+   "Jun Zhu",
+   "Qinsheng Zhang"
+  ],
+  "venue": "ICML 2025",
+  "award": "Spotlight",
+  "teaser-file": "assets/pub-teaser/ddo.jpeg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "ddo/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/pdf/2503.01103"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/DDO"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/nvidia/DirectDiscriminativeOptimization"
+   }
+  ]
+ },
+ "onedp": {
+  "year": 2025,
+  "title": "One-Step Diffusion Policy: Fast Visuomotor Policies via Diffusion Distillation",
+  "authors": [
+   "Zhendong Wang",
+   "Zhaoshuo Li",
+   "Ajay Mandlekar",
+   "Zhenjia Xu",
+   "Jiaojiao Fan",
+   "Yashraj Narang",
+   "Linxi Fan",
+   "Yuke Zhu",
+   "Yogesh Balaji",
+   "Mingyuan Zhou",
+   "Ming-Yu Liu",
+   "Yu Zeng"
+  ],
+  "venue": "ICML 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/onedp.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "onedp/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2410.21257"
+   }
+  ]
+ },
+ "llm-for-image-gen": {
+  "year": 2025,
+  "title": "A Comprehensive Study of Decoder-Only LLMs for Text-to-Image Generation",
+  "authors": [
+   "Andrew Z. Wang",
+   "Songwei Ge",
+   "Tero Karras",
+   "Ming-Yu Liu",
+   "Yogesh Balaji"
+  ],
+  "venue": "CVPR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/llm-for-image-gen.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "llm-for-image-gen/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2506.08210"
+   }
+  ]
+ },
+ "hmar": {
+  "year": 2025,
+  "title": "HMAR: Efficient Hierarchical Masked AutoRegressive Image Generation",
+  "authors": [
+   "Hermann Kumbong",
+   "Xian Liu",
+   "Tsung-Yi Lin",
+   "Xihui Liu",
+   "Ziwei Liu",
+   "Daniel Y Fu",
+   "Ming-Yu Liu",
+   "Christopher Re",
+   "David W. Romero"
+  ],
+  "venue": "CVPR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/hmar.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "hmar/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2506.04421"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/HMAR"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/nvidia/HMAR"
+   }
+  ]
+ },
+ "artiscene": {
+  "year": 2025,
+  "title": "ArtiScene: Language-Driven Artistic 3D Scene Generation Through Image Intermediary",
+  "authors": [
+   "Zeqi Gu",
+   "Yin Cui",
+   "Max Li",
+   "Fangyin Wei",
+   "Yunhao Ge",
+   "Jinwei Gu",
+   "Ming-Yu Liu",
+   "Abe Davis",
+   "Yifan Ding"
+  ],
+  "venue": "CVPR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/artiscene.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "artiscene/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2506.00742"
+   }
+  ]
+ },
+ "dynpose-100k": {
+  "year": 2025,
+  "title": "Dynamic Camera Poses and Where to Find Them",
+  "authors": [
+   "Chris Rockwell",
+   "Joseph Tung",
+   "Tsung-Yi Lin",
+   "Ming-Yu Liu",
+   "David F. Fouhey",
+   "Chen-Hsuan Lin"
+  ],
+  "venue": "CVPR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/dynpose-100k.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "dynpose-100k/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2504.17788"
+   },
+   {
+    "label": "Dataset",
+    "url": "https://huggingface.co/datasets/nvidia/dynpose-100k"
+   }
+  ]
+ },
+ "akd": {
+  "year": 2025,
+  "title": "Articulated Kinematics Distillation from Video Diffusion Models",
+  "authors": [
+   "Xuan Li",
+   "Qianli Ma",
+   "Tsung-Yi Lin",
+   "Yongxin Chen",
+   "Chenfanfu Jiang",
+   "Ming-Yu Liu",
+   "Donglai Xiang"
+  ],
+  "venue": "CVPR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/akd.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "akd/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2504.01204"
+   }
+  ]
+ },
+ "cot-vla": {
+  "year": 2025,
+  "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+  "authors": [
+   "Qingqing Zhao",
+   "Yao Lu",
+   "Moo Jin Kim",
+   "Zipeng Fu",
+   "Zhuoyang Zhang",
+   "Yecheng Wu",
+   "Zhaoshuo Li",
+   "Qianli Ma",
+   "Song Han",
+   "Chelsea Finn",
+   "Ankur Handa",
+   "Ming-Yu Liu",
+   "Donglai Xiang",
+   "Gordon Wetzstein",
+   "Tsung-Yi Lin"
+  ],
+  "venue": "CVPR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cot-vla.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cot-vla/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2503.22020"
+   }
+  ]
+ },
+ "edgerunner": {
+  "year": 2025,
+  "title": "EdgeRunner: Auto-regressive Auto-encoder for Artistic Mesh Generation",
+  "authors": [
+   "Jiaxiang Tang",
+   "Zhaoshuo Li",
+   "Zekun Hao",
+   "Xian Liu",
+   "Gang Zeng",
+   "Ming-Yu Liu",
+   "Qinsheng Zhang"
+  ],
+  "venue": "ICLR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/edgerunner.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "edgerunner/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2409.18114"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVlabs/EdgeRunner"
+   }
+  ]
+ },
+ "mdm-equal-mm": {
+  "year": 2025,
+  "title": "Are Discrete Diffusion Models Better Than Auto-regressive Models in Text Generation? Uncovering a Hidden Implementation Issue",
+  "authors": [
+   "Kaiwen Zheng",
+   "Yongxin Chen",
+   "Hanzi Mao",
+   "Ming-Yu Liu",
+   "Jun Zhu",
+   "Qinsheng Zhang"
+  ],
+  "venue": "ICLR 2025",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/mdm-equal-mm.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "mdm-equal-mm/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/pdf/2409.02908"
+   }
+  ]
+ },
+ "ddrl": {
+  "year": 2025,
+  "title": "DDRL: Data-regularized Reinforcement Learning for Diffusion Models at Scale",
+  "authors": [
+   "Haotian Ye",
+   "Kaiwen Zheng",
+   "Jiashu Xu",
+   "Puheng Li",
+   "Huayu Chen",
+   "Jiaqi Han",
+   "Sheng Liu",
+   "Qinsheng Zhang",
+   "Hanzi Mao",
+   "Zekun Hao",
+   "Prithvijit Chattopadhyay",
+   "Dinghao Yang",
+   "Liang Feng",
+   "Maosheng Liao",
+   "Junjie Bai",
+   "Ming-Yu Liu",
+   "James Zou",
+   "Stefano Ermon"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/ddrl.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "ddrl/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2512.04332"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-rl/blob/main/examples/ddrl.md"
+   }
+  ]
+ },
+ "cosmos-predict2.5": {
+  "year": 2025,
+  "title": "Cosmos-Predict2.5: Improved World Simulation with Video Foundation Models for Physical AI",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-predict2.5.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-predict2.5/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2511.00062"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-predict2.5"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "cosmos-transfer2.5": {
+  "year": 2025,
+  "title": "Cosmos-Transfer2.5: World Generation with Adaptive Multimodal Control",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-transfer2.5.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-transfer2.5/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2511.00062"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-transfer2.5"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "pio": {
+  "year": 2025,
+  "title": "Point-It-Out: Benchmarking Embodied Reasoning for Vision Language Models in Multi-Stage Visual Grounding",
+  "authors": [
+   "Haotian Xue",
+   "Yunhao Ge",
+   "Yu Zeng",
+   "Zhaoshuo Li",
+   "Ming-Yu Liu",
+   "Yongxin Chen",
+   "Jiaojiao Fan"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/pio.jpeg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "pio/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2509.25794"
+   }
+  ]
+ },
+ "mamba-tokenizer": {
+  "year": 2025,
+  "title": "MambaVideo for Discrete Video Tokenization with Channel-Split Quantization",
+  "authors": [
+   "Dawit Mureja Argaw",
+   "Xian Liu",
+   "Joon Son Chung",
+   "Ming-Yu Liu",
+   "Fitsum Reda"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/mamba-tokenizer.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "mamba-tokenizer/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2507.04559"
+   }
+  ]
+ },
+ "gna": {
+  "year": 2025,
+  "title": "Generalized Neighborhood Attention: Multi-dimensional Sparse Attention at the Speed of Light",
+  "authors": [
+   "Ali Hassani",
+   "Fengzhe Zhou",
+   "Aditya Kane",
+   "Jiannan Huang",
+   "Chieh-Yun Chen",
+   "Min Shi",
+   "Steven Walton",
+   "Markus Hoehnerbach",
+   "Vijay Thakkar",
+   "Michael Isaev",
+   "Qinsheng Zhang",
+   "Bing Xu",
+   "Haicheng Wu",
+   "Wen-mei Hwu",
+   "Ming-Yu Liu",
+   "Humphrey Shi"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/gna.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "gna/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2504.16922"
+   }
+  ]
+ },
+ "cosmos-predict2": {
+  "year": 2025,
+  "title": "Cosmos-Predict2: World Simulation Model for Physical AI",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": null,
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-predict2.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-predict2/"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-predict2"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/collections/nvidia/cosmos-predict2-68028efc052239369a0f2959"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "cosmos-reason1": {
+  "year": 2025,
+  "title": "Cosmos-Reason1: From Physical Common Sense To Embodied Reasoning",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-reason1.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-reason1/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2503.15558"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-reason1"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/nvidia/Cosmos-Reason1-7B"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "cosmos-transfer1": {
+  "year": 2025,
+  "title": "Cosmos-Transfer1: Conditional World Generation with Adaptive Multimodal Control",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-transfer1.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-transfer1/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2503.14492"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-transfer1"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/collections/nvidia/cosmos-transfer1-67c9d328196453be6e568d3e"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "cosmos-predict1": {
+  "year": 2025,
+  "title": "Cosmos-Predict1: World Foundation Model Platform for Physical AI",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-predict1.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-predict1/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2501.03575"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-predict1"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/collections/nvidia/cosmos-predict1-67c9d1b97678dbf7669c89a7"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "cosmos-tokenizer": {
+  "year": 2025,
+  "title": "Cosmos Tokenizer: A suite of image and video neural tokenizers",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-tokenizer.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-tokenizer/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2501.03575"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/NVIDIA/Cosmos-Tokenizer"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/collections/nvidia/cosmos-tokenizer-672b93023add81b66a8ff8e6"
+   },
+   {
+    "label": "Product Website",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+   }
+  ]
+ },
+ "cosmos-embed1": {
+  "year": 2025,
+  "title": "Cosmos-Embed1: A Joint Video-Text Embedding Model for Physical AI",
+  "authors": [
+   "Francesco Ferroni",
+   "Prithvijit Chattopadhyay",
+   "Greg Heinrich",
+   "Mike Ranzinger",
+   "Roberto Amoroso",
+   "Alice Luo",
+   "Andrew Wang",
+   "Ming-Yu Liu"
+  ],
+  "venue": null,
+  "award": null,
+  "teaser-file": "assets/pub-teaser/cosmos-embed1.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "cosmos-embed1/"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/collections/nvidia/cosmos-embed1-6833be2c9575cb89d6901504"
+   }
+  ]
+ },
+ "pbench": {
+  "year": 2025,
+  "title": "PBench: A Physical AI Benchmark for World Models",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": null,
+  "award": null,
+  "teaser-file": "assets/pub-teaser/pbench.svg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "pbench/"
+   },
+   {
+    "label": "Code",
+    "url": "https://github.com/nvidia-cosmos/cosmos-predict2"
+   },
+   {
+    "label": "Hugging Face",
+    "url": "https://huggingface.co/datasets/nvidia/PBench"
+   }
+  ]
+ },
+ "jedi": {
+  "year": 2024,
+  "title": "Joint-image Diffusion Models for Finetuning-free Personalized Text-to-image Generation",
+  "authors": [
+   "Yu Zeng",
+   "Vishal M. Patel",
+   "Haocheng Wang",
+   "Xun Huang",
+   "Ting-Chun Wang",
+   "Ming-Yu Liu",
+   "Yogesh Balaji"
+  ],
+  "venue": "CVPR 2024",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/jedi.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "jedi/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2407.06187v1"
+   },
+   {
+    "label": "Video",
+    "url": "https://research.nvidia.com/labs/dir/jedi/figure/rag_jedi_video_cut.mp4"
+   }
+  ]
+ },
+ "vfc": {
+  "year": 2024,
+  "title": "Visual Fact Checker: Enabling High-Fidelity Detailed Caption Generation",
+  "authors": [
+   "Yunhao Ge",
+   "Xiaohui Zeng",
+   "Jacob Samuel Huffman",
+   "Tsung-Yi Lin",
+   "Ming-Yu Liu",
+   "Yin Cui"
+  ],
+  "venue": "CVPR 2024",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/vfc.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "vfc/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2404.19752"
+   },
+   {
+    "label": "Video",
+    "url": "https://research.nvidia.com/labs/dir/vfc/assets/vfc_video.mp4"
+   }
+  ]
+ },
+ "meshtron": {
+  "year": 2024,
+  "title": "Meshtron: High-Fidelity, Artist-Like 3D Mesh Generation at Scale",
+  "authors": [
+   "Zekun Hao",
+   "David W. Romero",
+   "Tsung-Yi Lin",
+   "Ming-Yu Liu"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/meshtron.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "meshtron/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2412.09548"
+   },
+   {
+    "label": "Video",
+    "url": "https://www.youtube.com/watch?v=akj3bSYCBTk"
+   }
+  ]
+ },
+ "edify-image": {
+  "year": 2024,
+  "title": "Edify Image: High-Quality Image Generation with Pixel Space Laplacian Diffusion Models",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/edify-image.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "edify-image/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2411.07126"
+   },
+   {
+    "label": "Video",
+    "url": "https://www.youtube.com/watch?v=opiaV94tMJ4"
+   }
+  ]
+ },
+ "edify-3d": {
+  "year": 2024,
+  "title": "Edify 3D: Scalable High-Quality 3D Asset Generation",
+  "authors": [
+   "NVIDIA"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/edify-3d.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "edify-3d/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2411.07135"
+   },
+   {
+    "label": "Video",
+    "url": "https://www.youtube.com/watch?v=ROqB8xhKZ6U"
+   }
+  ]
+ },
+ "pyoco": {
+  "year": 2023,
+  "title": "Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models",
+  "authors": [
+   "Songwei Ge",
+   "Seungjun Nah",
+   "Guilin Liu",
+   "Tyler Poon",
+   "Andrew Tao",
+   "Bryan Catanzaro",
+   "David Jacobs",
+   "Jia-Bin Huang",
+   "Ming-Yu Liu",
+   "Yogesh Balaji"
+  ],
+  "venue": "ICCV 2023",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/pyoco.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "pyoco/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2305.10474"
+   }
+  ]
+ },
+ "space": {
+  "year": 2023,
+  "title": "SPACE: Speech-driven Portrait Animation with Controllable Expression",
+  "authors": [
+   "Siddharth Gururani",
+   "Arun Mallya",
+   "Ting-Chun Wang",
+   "Rafael Valle",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ICCV 2023",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/space.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "space/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2211.09809"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/ExeTeSAMR5Q"
+   }
+  ]
+ },
+ "neuralangelo": {
+  "year": 2023,
+  "title": "Neuralangelo: High-Fidelity Neural Surface Reconstruction",
+  "authors": [
+   "Zhaoshuo Li",
+   "Thomas Müller",
+   "Alex Evans",
+   "Russell H. Taylor",
+   "Mathias Unberath",
+   "Ming-Yu Liu",
+   "Chen-Hsuan Lin"
+  ],
+  "venue": "CVPR 2023",
+  "award": "TIME's Best Inventions of 2023",
+  "teaser-file": "assets/pub-teaser/neuralangelo.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "neuralangelo/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2306.03092"
+   },
+   {
+    "label": "Video",
+    "url": "https://research.nvidia.com/labs/dir/neuralangelo/assets/video.mp4"
+   }
+  ]
+ },
+ "diffcollage": {
+  "year": 2023,
+  "title": "DiffCollage: Parallel Generation of Large Content with Diffusion Models",
+  "authors": [
+   "Qinsheng Zhang",
+   "Jiaming Song",
+   "Xun Huang",
+   "Yongxin Chen",
+   "Ming-Yu Liu"
+  ],
+  "venue": "CVPR 2023",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/diffcollage.png",
+  "links": [
+   {
+    "label": "Project",
+    "url": "diffcollage/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2303.17076"
+   }
+  ]
+ },
+ "magic3d": {
+  "year": 2023,
+  "title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+  "authors": [
+   "Chen-Hsuan Lin*",
+   "Jun Gao*",
+   "Luming Tang*",
+   "Towaki Takikawa*",
+   "Xiaohui Zeng*",
+   "Xun Huang",
+   "Karsten Kreis",
+   "Sanja Fidler",
+   "Ming-Yu Liu",
+   "Tsung-Yi Lin"
+  ],
+  "venue": "CVPR 2023",
+  "award": "Highlight",
+  "teaser-file": "assets/pub-teaser/magic3d.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "magic3d/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2211.10440"
+   },
+   {
+    "label": "Video",
+    "url": "https://research.nvidia.com/labs/dir/magic3d/assets/video.mp4"
+   }
+  ]
+ },
+ "implicit-warping": {
+  "year": 2022,
+  "title": "Implicit Warping for Animation with Image Sets",
+  "authors": [
+   "Arun Mallya",
+   "Ting-Chun Wang",
+   "Ming-Yu Liu"
+  ],
+  "venue": "NeurIPS 2022",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/implicit-warping.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "implicit-warping/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2210.01794"
+   }
+  ]
+ },
+ "lumos": {
+  "year": 2022,
+  "title": "Lumos: Learning to Relight Portrait Images via a Virtual Light Stage and Synthetic-to-Real Adaptation",
+  "authors": [
+   "Yu-Ying Yeh",
+   "Koki Nagano",
+   "Sameh Khamis",
+   "Jan Kautz",
+   "Ming-Yu Liu",
+   "Ting-Chun Wang"
+  ],
+  "venue": "SIGGRAPH ASIA 2022",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/lumos.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "lumos/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2209.10510"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/uWSVpG0eKbU"
+   }
+  ]
+ },
+ "poe-gan": {
+  "year": 2022,
+  "title": "Multimodal Conditional Image Synthesis with Product-of-Experts GANs",
+  "authors": [
+   "Xun Huang",
+   "Arun Mallya",
+   "Ting-Chun Wang",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ECCV 2022",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/poe-gan.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "poe-gan/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2112.05130"
+   }
+  ]
+ },
+ "ediff-i": {
+  "year": 2022,
+  "title": "eDIFF-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers",
+  "authors": [
+   "Yogesh Balaji",
+   "Seungjun Nah",
+   "Xun Huang",
+   "Arash Vahdat",
+   "Jiaming Song",
+   "Qinsheng Zhang",
+   "Karsten Kreis",
+   "Miika Aittala",
+   "Timo Aila",
+   "Samuli Laine",
+   "Bryan Catanzaro",
+   "Tero Karras",
+   "Ming-Yu Liu"
+  ],
+  "venue": "Technical report",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/ediff-i.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "ediff-i/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2211.01324"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/WbaVvlgxbl4"
+   }
+  ]
+ },
+ "gancraft": {
+  "year": 2021,
+  "title": "GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds",
+  "authors": [
+   "Zekun Hao",
+   "Arun Mallya",
+   "Serge Belongie",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ICCV 2021",
+  "award": "Oral",
+  "teaser-file": "assets/pub-teaser/gancraft.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "gancraft/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2104.07659"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/1Hky092CGFQ"
+   }
+  ]
+ },
+ "iamai": {
+  "year": 2021,
+  "title": "I am AI: AI-driven Digital Avatar Made Easy",
+  "authors": [
+   "Ming-Yu Liu",
+   "Koki Nagano",
+   "Yeongho Seol",
+   "Rafael Valle",
+   "Jaewoo Seo",
+   "Ting-Chun Wang",
+   "Arun Mallya",
+   "Sameh Khamis",
+   "Wei Ping",
+   "Rohan Badlani",
+   "Kevin J. Shih",
+   "Bryan Catanzaro",
+   "Simon Yuen",
+   "Jan Kautz"
+  ],
+  "venue": "SIGGRAPH Real-Time Live 2021",
+  "award": "Best-in-Show",
+  "teaser-file": "assets/pub-teaser/iamai.jpg",
+  "links": [
+   {
+    "label": "Video",
+    "url": "https://www.youtube.com/watch?v=__Za-BP20eM"
+   }
+  ]
+ },
+ "face-vid2vid": {
+  "year": 2021,
+  "title": "One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing",
+  "authors": [
+   "Ting-Chun Wang",
+   "Arun Mallya",
+   "Ming-Yu Liu"
+  ],
+  "venue": "CVPR 2021",
+  "award": "Oral",
+  "teaser-file": "assets/pub-teaser/face-vid2vid.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "face-vid2vid/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2011.15126"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/nLYg9Waw72U"
+   }
+  ]
+ },
+ "gan-survey": {
+  "year": 2021,
+  "title": "Generative Adversarial Networks for Image and Video Synthesis: Algorithms and Applications",
+  "authors": [
+   "Ming-Yu Liu",
+   "Xun Huang",
+   "Jiahui Yu",
+   "Ting-Chun Wang",
+   "Arun Mallya"
+  ],
+  "venue": "Proceedings of the IEEE, 2021",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/gan-survey.jpg",
+  "links": [
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2008.02793"
+   }
+  ]
+ },
+ "coco-funit": {
+  "year": 2020,
+  "title": "COCO-FUNIT: Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder",
+  "authors": [
+   "Kuniaki Saito",
+   "Kate Saenko",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ECCV 2020",
+  "award": "Spotlight",
+  "teaser-file": "assets/pub-teaser/coco-funit.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://nvlabs.github.io/COCO-FUNIT/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2007.07431"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/X3EB8T8zdKw"
+   }
+  ]
+ },
+ "wc-vid2vid": {
+  "year": 2020,
+  "title": "World-Consistent Video-to-Video Synthesis",
+  "authors": [
+   "Arun Mallya",
+   "Ting-Chun Wang",
+   "Karan Sapra",
+   "Ming-Yu Liu"
+  ],
+  "venue": "ECCV 2020",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/wc-vid2vid.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://nvlabs.github.io/wc-vid2vid/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/2007.07431"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/09LNDzvpivk"
+   }
+  ]
+ },
+ "few-shot-vid2vid": {
+  "year": 2019,
+  "title": "Few-Shot Video-to-Video Synthesis",
+  "authors": [
+   "Ting-Chun Wang",
+   "Ming-Yu Liu",
+   "Andrew Tao",
+   "Guilin Liu",
+   "Jan Kautz",
+   "Bryan Catanzaro"
+  ],
+  "venue": "NeurIPS 2019",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/few-shot-vid2vid.jpg",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://nvlabs.github.io/few-shot-vid2vid/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://nvlabs.github.io/few-shot-vid2vid/main.pdf"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/8AZBuyEuDqc"
+   }
+  ]
+ },
+ "funit": {
+  "year": 2019,
+  "title": "Few-Shot Unsupervised Image-to-Image Translation",
+  "authors": [
+   "Ming-Yu Liu",
+   "Xun Huang",
+   "Arun Mallya",
+   "Tero Karras",
+   "Timo Aila",
+   "Jaakko Lehtinen",
+   "Jan Kautz"
+  ],
+  "venue": "ICCV 2019",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/funit.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://nvlabs.github.io/FUNIT/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1905.01723"
+   }
+  ]
+ },
+ "gaugan": {
+  "year": 2019,
+  "title": "GauGAN: Semantic Image Synthesis With Spatially Adaptive Normalization",
+  "authors": [
+   "Taesung Park",
+   "Chris Hebert",
+   "Ting-Chun Wang",
+   "Jun-Yan Zhu",
+   "Gavriil Klimov",
+   "Ming-Yu Liu"
+  ],
+  "venue": "SIGGRAPH Real-Time Live 2019",
+  "award": "Best-in-Show, Audience Choice",
+  "teaser-file": "assets/pub-teaser/gaugan.jpg",
+  "links": [
+   {
+    "label": "Video",
+    "url": "https://dl.acm.org/doi/10.1145/3306305.3332370"
+   }
+  ]
+ },
+ "spade": {
+  "year": 2019,
+  "title": "Semantic Image Synthesis with Spatially-Adaptive Normalization",
+  "authors": [
+   "Taesung Park",
+   "Ming-Yu Liu",
+   "Ting-Chun Wang",
+   "Jun-Yan Zhu"
+  ],
+  "venue": "CVPR 2019",
+  "award": "Oral, Best Paper Finalist",
+  "teaser-file": "assets/pub-teaser/spade.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://nvlabs.github.io/SPADE/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1903.07291"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/p5U4NgVGAwg"
+   }
+  ]
+ },
+ "vid2vid": {
+  "year": 2018,
+  "title": "Video-to-Video Synthesis",
+  "authors": [
+   "Ting-Chun Wang",
+   "Ming-Yu Liu",
+   "Jun-Yan Zhu",
+   "Guilin Liu",
+   "Andrew Tao",
+   "Jan Kautz",
+   "Bryan Catanzaro"
+  ],
+  "venue": "NeurIPS 2018",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/vid2vid.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://tcwang0509.github.io/vid2vid/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1808.06601"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/GrP_aOSXt5U"
+   }
+  ]
+ },
+ "munit": {
+  "year": 2018,
+  "title": "Multimodal Unsupervised Image-to-Image Translation",
+  "authors": [
+   "Xun Huang",
+   "Ming-Yu Liu",
+   "Serge Belongie",
+   "Jan Kautz"
+  ],
+  "venue": "ECCV 2018",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/munit.mp4",
+  "links": [
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1804.04732"
+   },
+   {
+    "label": "Video",
+    "url": "https://youtu.be/ab64TWzWn40"
+   }
+  ]
+ },
+ "fast-photo-style": {
+  "year": 2018,
+  "title": "A Closed-form Solution to Photorealistic Image Stylization",
+  "authors": [
+   "Yijun Li",
+   "Ming-Yu Liu",
+   "Xueting Li",
+   "Ming-Hsuan Yang",
+   "Jan Kautz"
+  ],
+  "venue": "ECCV 2018",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/fast-photo-style.jpg",
+  "links": [
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1802.06474"
+   },
+   {
+    "label": "Video",
+    "url": "https://www.youtube.com/watch?v=Y4_NPRf3eLM"
+   }
+  ]
+ },
+ "pix2pixhd": {
+  "year": 2018,
+  "title": "High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs",
+  "authors": [
+   "Ting-Chun Wang",
+   "Ming-Yu Liu",
+   "Jun-Yan Zhu",
+   "Andrew Tao",
+   "Jan Kautz",
+   "Bryan Catanzaro"
+  ],
+  "venue": "CVPR 2018",
+  "award": "Oral",
+  "teaser-file": "assets/pub-teaser/pix2pixhd.mp4",
+  "links": [
+   {
+    "label": "Project",
+    "url": "https://tcwang0509.github.io/pix2pixHD/"
+   },
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1703.00848"
+   },
+   {
+    "label": "Video",
+    "url": "https://www.youtube.com/watch?v=3AIpPlzM_qs"
+   }
+  ]
+ },
+ "mocogan": {
+  "year": 2018,
+  "title": "MoCoGAN: Decomposing Motion and Content for Video Generation",
+  "authors": [
+   "Sergey Tulyakov",
+   "Ming-Yu Liu",
+   "Xiaodong Yang",
+   "Jan Kautz"
+  ],
+  "venue": "CVPR 2018",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/mocogan.mp4",
+  "links": [
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1707.04993"
+   }
+  ]
+ },
+ "unit": {
+  "year": 2017,
+  "title": "Unsupervised Image-to-Image Translation Networks",
+  "authors": [
+   "Ming-Yu Liu",
+   "Thomas Breuel",
+   "Jan Kautz"
+  ],
+  "venue": "NeurIPS 2017",
+  "award": null,
+  "teaser-file": "assets/pub-teaser/unit.mp4",
+  "links": [
+   {
+    "label": "Paper",
+    "url": "https://arxiv.org/abs/1703.00848"
+   }
+  ]
+ }
+}
