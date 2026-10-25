@@ -38,13 +38,18 @@ $('#lightbox').onclick = e => {if (e.target.id === 'lightbox') $('#lb-close').on
 document.addEventListener('keydown', e => {if (e.key === 'Escape') $('#lb-close').onclick();});
 
 /* ---------------------------------------------------------------- tabs */
-function tabs(bar, panel, items, render, start = 0) {
+// closable: clicking the open tab again, or the panel's Close button, folds the panel away.
+function tabs(bar, panel, items, render, start = 0, closable = false) {
   bar.innerHTML = ''; let cur = -1;
   const show = i => {
-    if (i === cur) return; cur = i;
+    if (i === cur) {if (!closable) return; i = -1;}
+    cur = i;
     [...bar.children].forEach((b, k) => b.classList.toggle('active', k === i));
     if (panel) {panel.querySelectorAll('video').forEach(v => onScreen.unobserve(v)); panel.innerHTML = '';}
-    const node = render(items[i], i); if (panel && node) panel.appendChild(node);
+    if (i < 0) return;
+    const node = render(items[i], i); if (!panel || !node) return;
+    if (closable) {const x = el('button', 'ax-close', '× Close'); x.onclick = () => show(cur); node.classList.add('ax-closable'); node.appendChild(x);}
+    panel.appendChild(node);
   };
   items.forEach((it, i) => {const b = el('button', 'nav-link', it.label + (it.n ? `<span class="n">${it.n}</span>` : '')); b.onclick = () => show(i); bar.appendChild(b);});
   if (start >= 0) show(start); return show;
@@ -58,7 +63,7 @@ figure($('#fig-injection'), S.figures.injection);
 figure($('#fig-routes'), S.figures.routesRow);
 tabs($('#route-tabs'), $('#route-panel'), S.figures.routes.map(r => ({label: `${r.n} · ${r.name}`, r})), ({r}) => {
   const f = el('div', 'figure-block ax-wide'); figure(f, r.image); return f;
-}, -1);   // closed until a route is chosen
+}, -1, true);   // closed until a route is chosen; click again or Close to fold it
 
 /* ---------------------------------------------------------------- explorer: one viewer, one clock */
 const ex = {viewer: new AsterViewer($('#viewer')), video: $('#ex-video'), playing: true, case: null};

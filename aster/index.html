@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ASTER — Cosmos Lab</title>
   <meta property="og:title"       content="ASTER: Interaction Pretraining for Video World Simulator">
-  <meta property="og:description" content="An 8B video world simulator that learns from 13 robot, human and simulated sources through one shared action: point motion on the mover, plus camera geometry.">
+  <meta property="og:description" content="An 8B video world simulator that learns from 70K+ hours of robot, human and simulated video through one shared action: point motion on the mover, plus camera geometry.">
   <meta property="og:image"       content="">
   <link rel="icon" href="../favicon.ico">
   <link rel="preconnect" href="https://images.nvidia.com" crossorigin>
   <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../project.css">
-  <link rel="stylesheet" href="aster.css?v=20261025">
+  <link rel="stylesheet" href="aster.css?v=20261025b">
 </head>
 <body>
 
@@ -51,13 +51,13 @@
       <h2 class="proj-heading">Overview</h2>
       <p>
         A video world simulator is useful when it predicts what an action does to the scene, not only how the acting body
-        moves. ASTER learns from 13 robot, human and simulated sources through <b>one shared action: point motion on the
+        moves. ASTER learns from more than 70,000 hours of robot, human and simulated video through <b>one shared action: point motion on the
         controlled body — the mover — plus camera geometry</b>. The mover's motion is specified; everything it affects is
         left for the model to predict.
       </p>
       <ul class="ax-stats">
         <li><b>8B</b><span>video world simulator</span></li>
-        <li><b>13</b><span>robot, human and simulated sources</span></li>
+        <li><b>70K+</b><span>hours of robot, human and simulated video</span></li>
         <li><b>19.3%</b><span>lower prediction error than the same backbone, on average</span></li>
       </ul>
     </section>
@@ -212,9 +212,9 @@
 
   <!-- Footer injected by project.js -->
   <script src="assets/vendor/three.min.js"></script>
-  <script src="assets/viewer.js?v=20261025"></script>
-  <script src="assets/data.js?v=20261025"></script>
-  <script src="assets/app.js?v=20261025"></script>
+  <script src="assets/viewer.js?v=20261025b"></script>
+  <script src="assets/data.js?v=20261025b"></script>
+  <script src="assets/app.js?v=20261025b"></script>
 <!-- offline shim -->
 <script>
 /* Opened from a file:// path, the template's fetches for the shared header, footer and publication list are blocked as

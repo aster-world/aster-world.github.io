@@ -144,3 +144,7 @@ html { scroll-padding-top: 64px; }
 
 /* role note under the author line (as in the paper: dagger = project lead) */
 .aster-page .ax-author-note { margin: -12px 0 18px; font-size: .85rem; color: var(--ax-muted); }
+
+.ax-closable { position: relative; }
+.ax-close { position: absolute; right: 10px; top: 10px; z-index: 2; font-size: 0.68rem; color: var(--ax-muted, #666); background: rgba(255,255,255,.92); border: 1px solid var(--ax-line, #ddd); border-radius: 6px; padding: 3px 8px; cursor: pointer; }
+.ax-close:hover { color: var(--ax-ink, #111); }
