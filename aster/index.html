@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ASTER — Cosmos Lab</title>
+  <title>ASTER world model · NVIDIA Cosmos Lab</title>
   <meta property="og:title"       content="ASTER: Interaction Pretraining for Video World Simulator">
-  <meta property="og:description" content="An 8B video world simulator that learns from about 80K hours of robot, human and simulated video through one shared action: point motion on the mover, plus camera geometry.">
+  <meta property="og:description" content="The first interaction-pretrained world simulator: one action, point motion on the mover plus the camera, learned from about 80K hours of robot, human and simulated video. From NVIDIA Cosmos Lab.">
   <meta property="og:image"       content="">
   <link rel="icon" href="../favicon.ico">
   <link rel="preconnect" href="https://images.nvidia.com" crossorigin>
@@ -49,9 +49,10 @@
     <section class="abstract proj-section" id="overview">
       <h2 class="proj-heading">Overview</h2>
       <p>
-        A video world simulator is useful when it predicts what an action does to the scene, not only how the acting body
-        moves. ASTER learns from about 80,000 hours of robot, human and simulated video through <b>one shared action: point motion on the
-        controlled body — the mover — plus camera geometry</b>. The mover's motion is specified; everything it affects is
+        ASTER is the first interaction-pretrained world simulator. A video world simulator is useful when it predicts what
+        an action does to the scene, not only how the acting body moves. Interaction pretraining gives every source <b>one
+        shared action: point motion on the controlled body — the mover — plus camera geometry</b>, and ASTER learns it from
+        about 80,000 hours of robot, human and simulated video. The mover's motion is specified; everything it affects is
         left for the model to predict.
       </p>
       <ul class="ax-stats">
