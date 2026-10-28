@@ -60,9 +60,9 @@
         <li><b>19.3%</b><span>lower prediction error than the same backbone, on average</span></li>
       </ul>
       <ol class="ax-findings">
-        <li><b>Non-robot data makes robot prediction better.</b> Adding human and object-only video lowers error on five of six source domains, robot domains included.</li>
-        <li><b>The gains carry to data it never saw.</b> They transfer to DROID, a robot dataset held out of pretraining.</li>
-        <li><b>The model follows the motion.</b> Remove or swap the motion and its error rises, while the same backbone barely reacts.</li>
+        <li><b>Interaction you can specify.</b> On painting and laser cutting, the marks form where and when the tool acts in 73% of videos, against 17% for a text-conditioned video model.</li>
+        <li><b>Every mover is training data.</b> Adding human and object-only video lowers error on five of six domains, robot domains included.</li>
+        <li><b>Prediction keeps improving with scale.</b> Every domain improves at every pretraining checkpoint, and is still improving at the largest.</li>
       </ol>
     </section>
 
@@ -186,8 +186,7 @@
     <section class="proj-section" id="analysis">
       <h2 class="proj-heading">What the Data Buys</h2>
       <p>
-        Interaction pretraining lowers prediction error over the same backbone in every evaluated domain, and the gains
-        carry to DROID, held out of pretraining. Human and object-only data improve five of six source domains over
+        Interaction pretraining lowers prediction error over the same backbone in every evaluated domain. Human and object-only data improve five of six source domains over
         robot-only pretraining.
       </p>
       <div class="nav-tabs ax-tabs" id="analysis-tabs"></div>
