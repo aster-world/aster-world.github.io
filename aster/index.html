@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ASTER world model · NVIDIA Cosmos Lab</title>
   <meta property="og:title"       content="ASTER: Interaction Pretraining for Video World Simulator">
-  <meta property="og:description" content="The first interaction-pretrained world simulator: one action, point motion on the mover plus the camera, learned from about 80K hours of robot, human and simulated video. From NVIDIA Cosmos Lab.">
+  <meta property="og:description" content="A world simulator that takes its action in world space: the 3D motion of whatever moves, plus the camera. One action for robots, hands, tools and objects, learned from about 80K hours of robot, human and simulated video. From NVIDIA Cosmos Lab.">
   <meta property="og:image"       content="">
   <link rel="icon" href="../favicon.ico">
   <link rel="preconnect" href="https://images.nvidia.com" crossorigin>
   <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../project.css">
-  <link rel="stylesheet" href="aster.css?v=20261025d">
+  <link rel="stylesheet" href="aster.css?v=20261027a">
 </head>
 <body>
 
@@ -49,17 +49,21 @@
     <section class="abstract proj-section" id="overview">
       <h2 class="proj-heading">Overview</h2>
       <p>
-        ASTER is the first interaction-pretrained world simulator. A video world simulator is useful when it predicts what
-        an action does to the scene, not only how the acting body moves. Interaction pretraining gives every source <b>one
-        shared action: point motion on the controlled body — the mover — plus camera geometry</b>, and ASTER learns it from
-        about 80,000 hours of robot, human and simulated video. The mover's motion is specified; everything it affects is
-        left for the model to predict.
+        ASTER is a video world simulator that takes its action in <b>world space</b>: the 3D motion of whatever moves,
+        the mover, together with the camera. A gripper, a hand, a tool and an object all write their action the same way,
+        so robot logs, human video and physics simulators pretrain one model together: <b>interaction pretraining</b>, on
+        about 80,000 hours of video. The mover's motion is specified; everything it touches is left for the model to predict.
       </p>
       <ul class="ax-stats">
-        <li><b>8B</b><span>video world simulator</span></li>
         <li><b>80K</b><span>hours of robot, human and simulated video</span></li>
+        <li><b>13</b><span>sources, one action format</span></li>
         <li><b>19.3%</b><span>lower prediction error than the same backbone, on average</span></li>
       </ul>
+      <ol class="ax-findings">
+        <li><b>Non-robot data makes robot prediction better.</b> Adding human and object-only video lowers error on five of six source domains, robot domains included.</li>
+        <li><b>The gains carry to data it never saw.</b> They transfer to DROID, a robot dataset held out of pretraining.</li>
+        <li><b>The model follows the motion.</b> Remove or swap the motion and its error rises, while the same backbone barely reacts.</li>
+      </ol>
     </section>
 
     <!-- Method -->
@@ -68,7 +72,7 @@
       <h3 class="proj-subheading">One action for every source</h3>
       <p>
         Robots, hands, tools and physics all describe what they do the same way: the 3D motion of points on the mover, and
-        the camera. Each source converts to this form with what it already records — forward kinematics for robots, hand
+        the camera. Each source converts to this form with what it already records: forward kinematics for robots, hand
         and tool tracks for human video, ground-truth trajectories for simulators.
       </p>
       <div class="figure-block ax-wide" id="fig-pipeline"></div>
@@ -79,7 +83,7 @@
         <p>
           Each mover point takes its appearance from the first frame and carries it along its own path; the camera becomes
           a Plücker-ray field on the same token grid. Both are added once to the video tokens through a zero-initialised
-          projection, and every block adapts its key and value projections to read them — so training starts from the
+          projection, and every block adapts its key and value projections to read them, so training starts from the
           Cosmos 3 video prior.
         </p>
       </div>
@@ -98,7 +102,7 @@
     <section class="proj-section" id="explore">
       <h2 class="proj-heading">Explore the Interaction in 3D</h2>
       <p>
-        Left: the action ASTER is given — point motion on the mover with the source cameras, over the robot's links or the
+        Left: the action ASTER is given, point motion on the mover with the source cameras, over the robot's links or the
         scene's point cloud. Right: what ASTER predicts from it. One clock drives both; drag the scene to look around.
       </p>
       <div class="nav-tabs ax-tabs" id="group-tabs"></div>
@@ -129,7 +133,7 @@
     <section class="proj-section" id="results">
       <h2 class="proj-heading">One Model, Many Scenes</h2>
       <p>
-        Sixty-two predictions from the same 8B model: robot arms and humanoids, human hands, captured video, rigid-body
+        Sixty-two predictions from one model: robot arms and humanoids, human hands, captured video, rigid-body
         impacts, fluids, cloth and deformables. Click any clip to enlarge.
       </p>
       <div class="ax-wall" id="wall"></div>
@@ -182,8 +186,9 @@
     <section class="proj-section" id="analysis">
       <h2 class="proj-heading">What the Data Buys</h2>
       <p>
-        Interaction pretraining lowers prediction error over the same backbone in every evaluated domain. Human and
-        object-only data improve five of six source domains over robot-only pretraining.
+        Interaction pretraining lowers prediction error over the same backbone in every evaluated domain, and the gains
+        carry to DROID, held out of pretraining. Human and object-only data improve five of six source domains over
+        robot-only pretraining.
       </p>
       <div class="nav-tabs ax-tabs" id="analysis-tabs"></div>
       <div id="analysis-panel"></div>

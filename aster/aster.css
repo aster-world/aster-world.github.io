@@ -30,6 +30,10 @@ html { scroll-padding-top: 64px; }
 .ax-stats li:first-child { border-left: 0; padding-left: 0; }
 .ax-stats b { display: block; font-size: 1.6rem; font-weight: 700; color: var(--ax-green); letter-spacing: -.02em; line-height: 1.2; }
 .ax-stats span { font-size: 0.78rem; color: var(--ax-muted); line-height: 1.35; display: block; margin-top: 2px; }
+.ax-findings { margin: 22px 0 0 !important; padding: 0 0 0 1.3em !important; }
+.ax-findings li { margin: 0 0 8px !important; line-height: 1.5; }
+.ax-findings li::marker { color: var(--ax-green); font-weight: 700; }
+.ax-findings b { color: inherit; font-weight: 600; }
 
 /* method */
 .ax-split { display: grid; grid-template-columns: 340px 1fr; gap: 28px; align-items: center; }
