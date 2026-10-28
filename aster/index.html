@@ -60,9 +60,9 @@
         <li><b>19.3%</b><span>lower prediction error than the same backbone, on average</span></li>
       </ul>
       <ol class="ax-findings">
-        <li><b>Interaction you can specify.</b> On painting and laser cutting, the marks form where and when the tool acts in 73% of videos, against 17% for a text-conditioned video model.</li>
-        <li><b>Every mover is training data.</b> Adding human and object-only video lowers error on five of six domains, robot domains included.</li>
-        <li><b>Prediction keeps improving with scale.</b> Every domain improves at every pretraining checkpoint, and is still improving at the largest.</li>
+        <li><b>Interaction, not just navigation.</b> Contact, deformation, fluids and tool use. Adapted to painting and laser cutting, ASTER forms marks where and when the tool acts in 73% of videos, against 17% for a text-conditioned video model.</li>
+        <li><b>Cross-embodiment, beyond robots.</b> Human hands and plain objects become training data for robots: adding them beats robot-only pretraining in five of six domains, robot domains included.</li>
+        <li><b>Scaling that transfers.</b> Every domain improves at every pretraining checkpoint and is still improving at the last one. On DROID, a robot dataset held out of pretraining, ASTER is a better starting point than the same backbone.</li>
       </ol>
     </section>
 
