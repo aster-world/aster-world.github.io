@@ -34,6 +34,8 @@ html { scroll-padding-top: 64px; }
 .ax-findings li { margin: 0 0 8px !important; line-height: 1.5; }
 .ax-findings li::marker { color: var(--ax-green); font-weight: 700; }
 .ax-findings b { color: inherit; font-weight: 600; }
+.ax-findings a { font-weight: 500; white-space: nowrap; text-decoration: none; }
+.ax-findings a:hover { text-decoration: underline; }
 
 /* method */
 .ax-split { display: grid; grid-template-columns: 340px 1fr; gap: 28px; align-items: center; }

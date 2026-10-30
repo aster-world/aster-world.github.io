@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ASTER world model · NVIDIA Cosmos Lab</title>
   <meta property="og:title"       content="ASTER: Interaction Pretraining for Video World Simulator">
-  <meta property="og:description" content="A world simulator that takes its action in world space: the 3D motion of whatever moves, plus the camera. One action for robots, hands, tools and objects, learned from about 80K hours of robot, human and simulated video. From NVIDIA Cosmos Lab.">
+  <meta property="og:description" content="Most world models let you explore a world. ASTER lets you change it: move a tool, a gripper, a hand, or any object, and watch the world respond. From NVIDIA Cosmos Lab.">
   <meta property="og:image"       content="">
   <link rel="icon" href="../favicon.ico">
   <link rel="preconnect" href="https://images.nvidia.com" crossorigin>
   <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../project.css">
-  <link rel="stylesheet" href="aster.css?v=20261027a">
+  <link rel="stylesheet" href="aster.css?v=20261030a">
 </head>
 <body>
 
@@ -49,20 +49,18 @@
     <section class="abstract proj-section" id="overview">
       <h2 class="proj-heading">Overview</h2>
       <p>
-        ASTER is a video world simulator that takes its action in <b>world space</b>: the 3D motion of whatever moves,
-        the mover, together with the camera. A gripper, a hand, a tool and an object all write their action the same way,
-        so robot logs, human video and physics simulators pretrain one model together: <b>interaction pretraining</b>, on
-        about 80,000 hours of video. The mover's motion is specified; everything it touches is left for the model to predict.
+        Most world models let you explore a world. <b>ASTER lets you change it</b>: move a tool, a gripper, a hand, or any
+        object, and watch the world respond.
       </p>
       <ul class="ax-stats">
-        <li><b>80K</b><span>hours of robot, human and simulated video</span></li>
+        <li><b>80K</b><span>hours of robot, human and simulated video, nearly a decade</span></li>
         <li><b>13</b><span>sources, one action format</span></li>
         <li><b>19.3%</b><span>lower prediction error than the same backbone, on average</span></li>
       </ul>
       <ol class="ax-findings">
-        <li><b>Interaction, not just navigation.</b> Contact, deformation, fluids and tool use. Adapted to painting and laser cutting, ASTER forms marks where and when the tool acts in 73% of videos, against 17% for a text-conditioned video model.</li>
-        <li><b>Cross-embodiment, beyond robots.</b> Human hands and plain objects become training data for robots: adding them beats robot-only pretraining in five of six domains, robot domains included.</li>
-        <li><b>Scaling that transfers.</b> Every domain improves at every pretraining checkpoint and is still improving at the last one. On DROID, a robot dataset held out of pretraining, ASTER is a better starting point than the same backbone.</li>
+        <li><b>One action for every body.</b> Robots, humanoids, human hands and everyday objects all write their action the same way, as the 3D motion of whatever moves, so one model learns from all of them. <a href="#explore">Explore in 3D&nbsp;&rarr;</a></li>
+        <li><b>Data synergy.</b> Through interaction pretraining, human and object video make robot predictions better, and prediction keeps improving as training grows. <a href="#analysis">See the analysis&nbsp;&rarr;</a></li>
+        <li><b>It generalizes, not memorizes.</b> Shown a few letters and shapes, it paints and cuts new ones, and keeps working when the scene&rsquo;s color, lighting or texture changes. <a href="#general">See examples&nbsp;&rarr;</a></li>
       </ol>
     </section>
 
