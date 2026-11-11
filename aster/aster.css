@@ -1,7 +1,3 @@
-/* ASTER page additions to the Cosmos Lab project template (../style.css, ../project.css).
-   Everything is scoped to .aster-page and prefixed ax- so nothing leaks into, or collides with, the shared styles.
-   Media never changes aspect: rows share one height (set by app.js), each clip keeps its own width. */
-
 .aster-page {
   --ax-line: #e4e7ea; --ax-line-2: #d3d8de; --ax-tint: #f6f7f5;
   --ax-ink: #1a1a1a; --ax-body: #444; --ax-muted: #777; --ax-faint: #9aa2ac;

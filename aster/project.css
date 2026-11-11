@@ -1,8 +1,3 @@
-/* =========================================================
-   NVIDIA Cosmos Lab — Project Page Styles
-   Light content area; dark header/footer come from style.css
-   ========================================================= */
-
 :root {
   --page-max-width: 1000px;
 }
@@ -84,7 +79,7 @@ body {
   letter-spacing: 0;
 }
 
-/* ---- Hero (auto-populated by project.js from JSON) ---- */
+/* ---- Hero ---- */
 .project-hero {
   max-width: var(--page-max-width);
   margin: 0 auto;
@@ -485,7 +480,7 @@ body {
 .proj-carousel-btn.prev { left: -18px; }
 .proj-carousel-btn.next { right: -18px; }
 
-/* ---- Citation (pre-filled by project.js) ---- */
+/* ---- Citation ---- */
 .citation-block { position: relative; }
 .citation pre {
   background: #f6f6f6;

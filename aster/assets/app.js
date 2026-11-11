@@ -1,5 +1,5 @@
-/* ASTER project page, Cosmos Lab template edition. Everything is rendered from window.SITE (assets/data.js) into the
-   template's sections; ../js/project.js adds the shared header, footer and hero metadata. Clips only load and play while
+/* ASTER project page, everything is rendered from window.SITE (assets/data.js) into the
+   page's sections. Clips only load and play while
    on screen; tab panels exist only while selected; the 3D viewer is one instance that loads each case on demand. */
 'use strict';
 const S = window.SITE;
@@ -56,15 +56,6 @@ function tabs(bar, panel, items, render, start = 0, closable = false) {
 }
 const figure = (box, rec) => {const i = img(rec); i.onclick = () => lightbox(rec); box.appendChild(i);};
 
-/* ---------------------------------------------------------------- author links */
-// project.js renders the hero authors from publications.json as plain names; link each to its homepage.
-const AUTHOR_LINKS = {'Haoyang Li': 'https://haoyangli16.github.io/', 'Yu-Wei Chao': 'https://scholar.google.com/citations?user=48Y9F-YAAAAJ', 'Zhaoshuo Li': 'https://mli0603.github.io/', 'Jinwei Gu': 'https://www.gujinwei.org/', 'Tsung-Yi Lin': 'https://tsungyilin.info/', 'Ming-Yu Liu': 'https://mingyuliu.net/', 'Shuran Song': 'https://shurans.github.io/', 'Kaichun Mo': 'https://kaichun-mo.github.io/'};
-const linkAuthors = box => box.querySelectorAll('span').forEach(s => {
-  const name = s.textContent.trim(), url = AUTHOR_LINKS[name];
-  if (url && !s.querySelector('a')) {const l = document.createElement('a'); l.href = url; l.target = '_blank'; l.rel = 'noopener'; l.textContent = name; s.replaceChildren(l);}
-});
-const authorsBox = document.querySelector('.project-authors');
-if (authorsBox) {linkAuthors(authorsBox); new MutationObserver(() => linkAuthors(authorsBox)).observe(authorsBox, {childList: true});}
 
 /* ---------------------------------------------------------------- hero + method */
 for (const r of S.hero) $('#hero-grid').appendChild(vid(r));
@@ -151,11 +142,9 @@ function rowPanel(c, items, height) {
 tabs($('#control-tabs'), $('#control-panel'), S.control.map(c => ({label: c.title, c})),
   ({c}) => rowPanel(c, [{media: c.observation, label: 'First frame'}, ...c.variants], 280));
 tabs($('#compare-tabs'), $('#compare-panel'), S.comparison.map(c => ({label: c.title, c})), ({c}) => rowPanel(c, c.items, 320));
-const mixtureBaselineLabels = ['Wan-Move', 'Cosmos-Predict2.5', 'Cosmos 3', 'ASTER'];
 tabs($('#mixture-tabs'), $('#mixture-panel'), S.mixture.map(c => ({label: c.title, c})), ({c}) => {
-  const items = c.items.map((item, index) => index === 0 ? item : {...item, label: mixtureBaselineLabels[index - 1]});
-  const box = rowPanel(c, items, 240);
-  box.appendChild(el('p', 'ax-warn', 'Same first frame and action across four video-generation baselines.'));
+  const box = rowPanel(c, c.items, 240);
+  box.appendChild(el('p', 'ax-warn', 'Same first frame and action across the four pre-training mixtures.'));
   return box;
 });
 
