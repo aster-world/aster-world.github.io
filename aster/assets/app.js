@@ -142,6 +142,11 @@ function rowPanel(c, items, height) {
 tabs($('#control-tabs'), $('#control-panel'), S.control.map(c => ({label: c.title, c})),
   ({c}) => rowPanel(c, [{media: c.observation, label: 'First frame'}, ...c.variants], 280));
 tabs($('#compare-tabs'), $('#compare-panel'), S.comparison.map(c => ({label: c.title, c})), ({c}) => rowPanel(c, c.items, 320));
+tabs($('#mixture-tabs'), $('#mixture-panel'), S.mixture.map(c => ({label: c.title, c})), ({c}) => {
+  const box = rowPanel(c, c.items, 240);
+  box.appendChild(el('p', 'ax-warn', 'Same first frame and action. Each clip comes from ASTER pre-trained on a different data mixture.'));
+  return box;
+});
 
 
 /* ---------------------------------------------------------------- results wall */
